@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import NewsIndex from './NewsIndex';
 import NewsIndex from './news-index/NewsIndex'
 
 ReactDOM.render(
   <React.StrictMode>
           <NewsIndex />
-      {/*<App/>*/}
+      {/*<NewsIndex/>*/}
   </React.StrictMode>,
   document.getElementById('root')
 );

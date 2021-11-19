@@ -1,17 +1,17 @@
 import logo from './logo.svg';
-import './App.css';
+import './NewsIndex.css';
 
-function App() {
+function NewsIndex() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Here is me trying to create a React App! LMAO
+          Here is me trying to create a React NewsIndex! LMAO
         </p>
       </header>
     </div>
   );
 }
 
-export default App;
+export default NewsIndex;
